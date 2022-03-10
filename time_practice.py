@@ -26,5 +26,10 @@ def slow_function():
         i * i
 
 
-fast_functions()
-slow_function()
+def main():
+    fast_functions()
+    slow_function()
+
+
+if __name__ == "__main__":
+    main()
