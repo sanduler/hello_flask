@@ -9,7 +9,7 @@ def speed_calc_decorator(function):
         start_time = time.time()
         function()
         end_time = time.time()
-        print(f"{function.__name__} run speed: {start_time - end_time}")
+        print(f"{function.__name__} run speed: {abs(start_time - end_time)}")
 
     return wrapper_function
 
